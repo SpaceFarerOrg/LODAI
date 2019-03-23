@@ -75,7 +75,7 @@ void CRenderer::CreateWindow()
 	sf::ContextSettings Settings;
 	Settings.antialiasingLevel = 8;
 
-	Window.create(VM, "LOD AI - Kasper & Joakim", sf::Style::Titlebar, Settings);
+	Window.create(VM, "LOD AI - Kasper & Joakim", sf::Style::Titlebar | sf::Style::Close, Settings);
 }
 
 //--------------------------------------------------

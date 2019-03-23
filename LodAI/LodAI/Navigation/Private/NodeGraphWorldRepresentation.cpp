@@ -102,7 +102,6 @@ void CNodeGraphWorldRepresentation::Draw(CRenderQueue& InRenderQueue) const
 			LinkPoints[1].position = Nodes[Neighbour].Position + LinkLineOffset;
 			InRenderQueue.PushRenderCommand(LinkPoints);
 		}
-
 	}
 }
 
